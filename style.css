@@ -1,0 +1,307 @@
+@import url("https://fonts.googleapis.com/css2?family=Beau+Rivage&family=Crimson+Pro&family=K2D&family=Rampart+One&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: k2d, sans-serif;
+}
+/* Navigation Bar */
+.navbar {
+  background-color: rgba(0, 0, 0);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-transform: uppercase;
+  font-size: 1.3rem;
+  position: fixed;
+  width: 100%;
+}
+.logo {
+  width: 13rem;
+  height: 3rem;
+}
+.menu {
+  display: flex;
+}
+.menu li {
+  padding-right: 2em;
+}
+.menu li a {
+  text-decoration: none;
+  color: white;
+}
+.menu li a:hover {
+  color: rgb(190, 52, 184);
+  text-decoration: underline;
+}
+/* Home Page */
+#home {
+  width: 100%;
+  background-image: url(photos/foto.png);
+  color: rgb(228, 227, 227);
+  background-size: cover;
+  height: 45em;
+}
+
+#home h2 {
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding: 3em 0 0 0em;
+  font-size: 2rem;
+}
+#home h1 {
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding: 2.5em 0 0 0em;
+  font-size: 3rem;
+}
+
+/* My projects */
+#projects {
+  color: white;
+  background-color: #0d0c0f;
+  width: 1350px;
+  height: 650px;
+  padding: 2em 5em;
+}
+
+.myprojects {
+  display: flex;
+  text-align: justify;
+}
+
+#projects h1 {
+  font-size: 3rem;
+  padding-top: 0.7em;
+  padding-bottom: 0.8em;
+  text-align: center;
+}
+#projects h1 span {
+  color: rgb(190, 52, 184);
+}
+#projects img {
+  max-width: 100%;
+  width: 232px;
+  height: 130px;
+  align-self: auto;
+}
+.project {
+  display: flex;
+  flex-direction: column;
+  padding: 2em;
+}
+.project h3 {
+  color: rgb(190, 52, 184);
+  text-align: center;
+  padding-top: 1.2em;
+  padding-bottom: 1.2em;
+}
+
+/* About me */
+#about {
+  color: white;
+  background-color: #0d0c0f;
+  width: 1350px;
+  height: 650px;
+  padding: 2em 5em;
+}
+#about h1 {
+  font-size: 3rem;
+  padding-top: 0.7em;
+  padding-bottom: 0.8em;
+  text-align: center;
+}
+#about h1 span {
+  color: rgb(190, 52, 184);
+}
+.aboutme {
+  display: flex;
+  text-align: justify;
+  flex-direction: column;
+}
+
+#about h2 {
+  color: rgb(190, 52, 184);
+  text-transform: uppercase;
+  padding-bottom: 0.5em;
+}
+.lang span {
+  color: rgb(129, 127, 127);
+  opacity: 0.4;
+}
+
+.pic-bio {
+  display: flex;
+  margin-bottom: 2em;
+  gap: 1em;
+}
+.pic {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex: 1;
+}
+.pic img {
+  max-width: 100%;
+  width: 40%;
+  border-radius: 50%;
+  border: rgb(190, 52, 184) 5px solid;
+  justify-content: center;
+  align-items: center;
+}
+.bio {
+  flex: 2;
+}
+.esl {
+  display: flex;
+  width: 1190px;
+  height: 250px;
+  gap: 1em;
+}
+
+.esl ul {
+  list-style: disc;
+  text-align: justify;
+}
+.esl li {
+  padding: 0.2em;
+}
+.edu {
+  flex: 1;
+  padding: 1em 2em;
+  background-color: rgb(24, 23, 23);
+  border-bottom: solid rgb(190, 52, 184);
+  border-radius: 1%;
+}
+
+.skills {
+  flex: 1;
+  padding: 1em 2em;
+  background-color: rgb(24, 23, 23);
+  border-bottom: solid rgb(190, 52, 184);
+  border-radius: 1%;
+}
+.lang {
+  flex: 1;
+  padding: 1em 2em;
+  background-color: rgb(24, 23, 23);
+  border-bottom: solid rgb(190, 52, 184);
+  border-radius: 1%;
+}
+.lang span {
+  border-bottom: none;
+}
+
+/* Contact */
+#contact-page {
+  color: white;
+  background-color: #0d0c0f;
+  width: 1350px;
+  height: 650px;
+  padding: 2em 5em;
+}
+#contact-page h1 {
+  font-size: 3rem;
+  padding-top: 0.7em;
+  padding-bottom: 0.8em;
+  text-align: center;
+}
+#contact-page h1 span {
+  color: rgb(190, 52, 184);
+}
+
+.contact {
+  background-image: linear-gradient(
+    to right,
+    rgb(190, 52, 184),
+    rgb(146, 7, 100)
+  );
+  width: 120vh;
+  height: 60vh;
+  margin: 10px auto;
+  display: flex;
+  border-radius: 30px;
+}
+.contact-info {
+  width: 50%;
+  text-align: center;
+}
+
+#contact-page h6 {
+  color: black;
+  font-size: 1.1rem;
+}
+#contact-page .title {
+  color: black;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  text-align: center;
+}
+.detail-box {
+  padding: 0.5em 1em;
+}
+.detail-item {
+  font-size: 10px;
+  color: black;
+}
+.detail-item h6 {
+  font-size: 1rem;
+  color: white;
+}
+
+.contact-info .contact-details {
+  display: flex;
+  flex-direction: column;
+}
+.contact-info .social {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 3.5em 2em 3em 1em;
+  gap: 2em;
+}
+.social a {
+  color: black;
+  font-size: 1.4em;
+}
+.form-group {
+  display: flex;
+  text-align: center;
+  margin: 1em 3em;
+}
+.input {
+  width: 100%;
+  outline: none;
+  border: 2px solid #333;
+  background: white;
+  padding: 0.2em 3em;
+  color: black;
+  font-size: 1rem;
+  border-radius: 25px;
+  transition: 0.3s;
+  text-align: center;
+}
+.textarea {
+  height: 5em;
+}
+.btn {
+  display: flex;
+  padding: 0.4em 1em;
+  background-color: rgb(245, 161, 210);
+  border: 2px solid #333;
+  font-size: 1rem;
+  color: black;
+  line-height: 1;
+  border-radius: 25px;
+  outline: none;
+  cursor: pointer;
+  transition: 0.3s;
+  margin-left: 10em;
+}
+
+.btn:hover {
+  background-color: rgb(7, 7, 7);
+  color: white;
+}
