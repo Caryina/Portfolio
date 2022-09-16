@@ -18,8 +18,8 @@
   width: 100%;
 }
 .logo {
-  width: 13rem;
-  height: 3rem;
+  max-width: 13rem;
+  min-height: 3rem;
 }
 .menu {
   display: flex;
@@ -41,7 +41,7 @@
   background-image: url(photos/foto.png);
   color: rgb(228, 227, 227);
   background-size: cover;
-  height: 45em;
+  min-height: 45rem;
 }
 
 #home h2 {
@@ -61,8 +61,8 @@
 #projects {
   color: white;
   background-color: #0d0c0f;
-  width: 1350px;
-  height: 650px;
+  max-width: 100rem;
+  min-height: 45rem;
   padding: 2em 5em;
 }
 
@@ -102,8 +102,8 @@
 #about {
   color: white;
   background-color: #0d0c0f;
-  width: 1350px;
-  height: 650px;
+  max-width: 100rem;
+  min-height: 45rem;
   padding: 2em 5em;
 }
 #about h1 {
@@ -198,7 +198,7 @@
   color: white;
   background-color: #0d0c0f;
   width: 1350px;
-  height: 650px;
+  min-height: 45em;
   padding: 2em 5em;
 }
 #contact-page h1 {
@@ -304,4 +304,7 @@
 .btn:hover {
   background-color: rgb(7, 7, 7);
   color: white;
+}
+
+@media (min-width: 280px) and (max-width: 720px) {
 }
