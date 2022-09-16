@@ -18,8 +18,8 @@
   width: 100%;
 }
 .logo {
-  max-width: 13rem;
-  min-height: 3rem;
+  width: 13rem;
+  height: 3rem;
 }
 .menu {
   display: flex;
@@ -37,11 +37,11 @@
 }
 /* Home Page */
 #home {
-  width: 100%;
+  width: 1367px;
+  height: 650px;
   background-image: url(photos/foto.png);
   color: rgb(228, 227, 227);
   background-size: cover;
-  min-height: 45rem;
 }
 
 #home h2 {
@@ -61,8 +61,8 @@
 #projects {
   color: white;
   background-color: #0d0c0f;
-  max-width: 100rem;
-  min-height: 45rem;
+  width: 1367px;
+  height: 650px;
   padding: 2em 5em;
 }
 
@@ -102,8 +102,8 @@
 #about {
   color: white;
   background-color: #0d0c0f;
-  max-width: 100rem;
-  min-height: 45rem;
+  width: 1367px;
+  height: 650px;
   padding: 2em 5em;
 }
 #about h1 {
@@ -155,7 +155,7 @@
 }
 .esl {
   display: flex;
-  width: 1190px;
+  width: 1200px;
   height: 250px;
   gap: 1em;
 }
@@ -197,8 +197,8 @@
 #contact-page {
   color: white;
   background-color: #0d0c0f;
-  width: 1350px;
-  min-height: 45em;
+  width: 1367px;
+  height: 650px;
   padding: 2em 5em;
 }
 #contact-page h1 {
@@ -217,8 +217,8 @@
     rgb(190, 52, 184),
     rgb(146, 7, 100)
   );
-  width: 120vh;
-  height: 60vh;
+  width: 800px;
+  height: 370px;
   margin: 10px auto;
   display: flex;
   border-radius: 30px;
@@ -304,7 +304,4 @@
 .btn:hover {
   background-color: rgb(7, 7, 7);
   color: white;
-}
-
-@media (min-width: 280px) and (max-width: 720px) {
 }
