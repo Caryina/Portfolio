@@ -39,8 +39,7 @@
 
 /* Home Page */
 #home {
-  width: 1367px;
-  height: 650px;
+  width: 100%;
   background-image: url(photos/foto.png);
   color: rgb(228, 227, 227);
   background-size: cover;
@@ -112,8 +111,7 @@
 #about {
   color: white;
   background-color: #0d0c0f;
-  width: 1367px;
-  height: 650px;
+  width: 100%;
   padding: 2em 5em;
 }
 #about h1 {
